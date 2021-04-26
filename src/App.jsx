@@ -7,7 +7,7 @@ const App = () => {
   return (
     <main>
       <div className="container">
-        <h3>Questions and answers about login</h3>
+        <h3>Questions and answer about somthing</h3>
         <section className="info">
           {questions.map((question) => {
             return <SingleQuestion key={question.id} {...question} />;
